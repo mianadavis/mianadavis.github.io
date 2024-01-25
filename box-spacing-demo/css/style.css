@@ -1,0 +1,13 @@
+div {
+    border: 8px solid thistle;
+    margin: 24px 24px;
+    padding: 24px 36px;
+    background-color: paleturquoise;
+}
+p {
+    border: 30px solid crimson;
+    border-radius: 20px;
+    margin: 60px;
+    padding: 46px 60px;
+    background-color: lightpink;
+}
