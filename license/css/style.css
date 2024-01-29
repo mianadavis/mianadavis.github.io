@@ -1,0 +1,57 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+#license {
+    border: 3px solid black;
+    border-radius: 24px;
+    width: 700px;
+    box-shadow: 6px 6px 6px;
+}
+#content {
+    margin: 10px;
+    background: linear-gradient(pink, lightyellow)
+}
+div h4 {
+    background-color: darkblue;
+    color: white
+}
+div h1 {
+    color: darkblue;
+}
+h1 {
+    border: 3px solid red;
+}
+#left-side {
+    border: 3px solid red;
+    display: inline-block;
+    width:65%
+}
+#right-side {
+    border: 3px solid red;
+    display: inline-block;
+}
+#id-and-expiration {
+
+}
+#data-left,
+#data-right {
+display: inline-block
+}
+
+}
+#personal-info {
+    display: inline-block;
+    width:
+}
+#small-pic {
+    display:inline-block;
+    width:
+}
+#data-fields {
+    display:inline-block;
+}
