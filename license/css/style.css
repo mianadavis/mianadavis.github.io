@@ -9,41 +9,45 @@
 #license {
     border: 3px solid black;
     border-radius: 24px;
-    width: 700px;
+    width: 666px;
     box-shadow: 6px 6px 6px;
+    background: linear-gradient(pink, lightyellow)
 }
 #content {
     margin: 10px;
-    background: linear-gradient(pink, lightyellow)
 }
 div h4 {
+    padding: 10px;
     background-color: darkblue;
-    color: white
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    margin: 0px;
 }
 div h1 {
+    margin: 0px;
+    font-size: 50px;
     color: darkblue;
 }
-h1 {
-    border: 3px solid red;
-}
 #left-side {
-    border: 3px solid red;
     display: inline-block;
-    width:65%
+    width:65%;
+
 }
 #right-side {
-    border: 3px solid red;
     display: inline-block;
 }
-#id-and-expiration {
-
+#id-and-expiration div {
+    display: inline-block
+}
+#id-and-expiration div {
+    margin: 10px
 }
 #data-left,
 #data-right {
-display: inline-block
+    display: inline-block
 }
 
-}
 #personal-info {
     display: inline-block;
     width:
@@ -54,4 +58,43 @@ display: inline-block
 }
 #data-fields {
     display:inline-block;
+    margin-left: 20px;
+}
+#right-side img {
+    width: 200px;
+    margin: 10px;
+}
+#left-side img {
+    width: 80px;
+    opacity: 50%;
+    margin-left: 10px;
+}
+#data-left span {
+    color: red;
+    font-weight: bold;
+}
+#data-right span {
+    color: red;
+    font-weight: bold;
+}
+#id-and-expiration span {
+    color: red;
+    font-weight: bold;
+}
+#donor {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block
+}
+#address {
+    font-weight: bold;
+    margin: 10px;
+}
+#real-id {
+    display: inline-block;
+   
+}
+#right-side {
+    text-align: center;
 }
