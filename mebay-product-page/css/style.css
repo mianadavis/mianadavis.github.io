@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-areas: 
+    "header header header"
+    "main middle sidebar";
+}
+
+#header {
+    grid-area: header;
+    padding: 0px 36px;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#header #m {
+    color: purple;
+}
+
+#header #e  {
+    color: red;
+   
+}
+
+#header #b {
+    color: blue;
+}
+
+#header #a {
+    color: orange;
+}
+
+#header #y {
+    color: lightgreen
+}
+
+#header {
+    text-align: center;
+}
+
+#sidebar {
+    grid-area: sidebar;
+    padding: 0px 24px;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 12px 0px;
+    margin: 0px;
+    border-bottom: 1px solid #AAAAAA;
+}
+
+#sidebar ul a {
+    text-decoration: none;
+    color: #111111;
+    padding: 12px;
+    display: block;
+}
+
+#main img {
+width: 400px;
+padding: 20px;
+}
+
+#sidebar ul a:hover {
+    background-color: lightgray;
+    border-radius: 12px;
+}
+
+#main {
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#middle {
+    grid-area: middle;
+}
+
+
+.metube-item .thumbnail-placeholder {
+    border-radius: 8px;
+}
+
+
+.metube-item h4 a:hover {
+    text-decoration: underline;
+}
+
+
+.metube-item .video-channel {
+    margin-bottom: 4px;
+}
+
+.metube-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+div.buynow {
+    border: solid black;
+    text-align: center;
+    margin-top: 10px;
+    box-sizing: content-box;
+    width: 10%;
+    padding: 10px;
+    display: block;
+    border-radius: 12px;
+}
+div.addtowishlist {
+    border: solid black;
+    text-align: center;
+    margin-top: 10px;
+    box-sizing: content-box;
+    width: 10%;
+    padding: 10px;
+    display: block;
+    border-radius: 12px;
+}
