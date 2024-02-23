@@ -1,0 +1,104 @@
+* {
+    box-sizing:border-box;
+}
+
+.center-column {
+    padding: 24px;
+}
+
+body {
+    margin:0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background: linear-gradient(
+        to bottom,
+        pink, 
+        #0e5b96
+    );
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+#navbar a:hover {
+    background: linear-gradient(
+        to top,
+        #0e5b96,
+        #0e5b96
+    );
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        visibility 0.25s,
+        opacity 0.25s
+}
+
+.dropdown-container:last-child .dropdown-menu {
+    right:0px;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu a {
+    background-color: darkslateblue;
+    width: 100%;
+    min-width: 200px;
+}
+
+#navbar .dropdown-menu a:hover {
+    background: slateblue;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    object-fit:cover
+}
+
+body {
+    margin:0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url("../images/background.webp"); 
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hero-1 h1 {
+    font-size: 15vw;
+    padding-left: 10vw;
+}
+
