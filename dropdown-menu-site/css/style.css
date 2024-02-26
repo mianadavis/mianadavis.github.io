@@ -102,3 +102,108 @@ body {
     padding-left: 10vw;
 }
 
+#card2 a {
+    transition:
+        background-color 0.5s, 
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#card2:hover a {
+    color: aquamarine 
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+.gallery-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    color:lightseagreen
+}
+
+.card {
+    flex: 300px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+
+.card a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    border: 3px solid black;
+    padding: 12px;
+    margin-top: 36px;
+}
+
+#hero a,
+.card a {
+    background-color: white;
+    color: indigo;
+    border: 2px solid indigo;
+    border-radius: 24px;
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 12px;
+    min-width: 150px;
+    transition: transform 0.25s;
+}
+
+#hero a:hover,
+.card a:hover {
+    transform: scale(1.05);
+}
+
+/****************************************************************************
+  Card styles
+****************************************************************************/
+.three-cards,
+.two-cards {
+    display: flex;
+}
+
+.card {
+    border: 2px solid indigo;
+    color: indigo;
+    margin: 48px 24px 24px;
+    padding: 12px 12px 24px;
+    text-align: center;
+    box-shadow: 4px 4px 8px 0px grey;
+    flex: 1;
+}
+
+.card p {
+    font-size: 18px;
+}
+
+.three-cards {
+    margin-top: 48px;
+}
+
+.two-cards {
+    align-items: center;
+    margin: 48px 0px;
+}
+
+.two-cards .card {
+    border: 0px;
+    box-shadow: none;
+}
+
+.two-cards .card img {
+    width: 100%;
+}
+
+#d1-container1 {
+    border: 2px solid black
+}
+
+#d1-container1 {
+    margin: 24px;
+    padding: 10px;
+}

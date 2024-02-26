@@ -71,7 +71,7 @@ body {
     background-image: url("../images/random.jpg"); 
     background-size: cover;
     background-position: center center;
-    height: 0vh;
+    height: 75vh;
     display: flex;
     justify-content: flex-start;
     align-items: center;
