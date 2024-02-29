@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+h3 {
+text-align: center;
+}
+
+body {
+    margin: 0px;
+    padding: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    align-items: center;
+}
+
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.teams {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 10px solid #333333;
+    padding: 24px;
+    gap: 4px;
+    align-items: center;
+}
+
+.teams img {
+    width: 100%
+}
+
+.card a:hover {
+    background-color: transparent;
+    border: 3px solid rgb(165, 165, 165);
+    color: rgb(248, 49, 49);
+}
+
+.card a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(239, 207, 207);
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+    transition:
+        background-color 0.5s,
+        color 0.5s;
+}
